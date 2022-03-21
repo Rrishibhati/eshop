@@ -1,0 +1,23 @@
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: #fff;
+    height: max-content;
+}
+
+.checkout-advt-banner {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout-title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+}
+
+.chekcout-left {
+    display: flex;
+    flex-direction: column;
+}
