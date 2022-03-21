@@ -43,3 +43,11 @@
     margin-top: 10px;
 }
 
+span.rating p {
+    font-size: 30px;
+    color: #ff9f00;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+
