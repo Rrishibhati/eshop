@@ -1,7 +1,18 @@
 import React from 'react';
 import './CheckoutProduct.css';
+import { useStateValue } from './DataLayer/StateProvider';
 
 function CheckoutProduct({ id, title, price, rating, image }) {
+
+  const [{basket}, dispatch] = useStateValue();
+
+  const removeFromBasket = () => {
+     dispatch({
+       type : 'REMOVE_FROM_BASKET',
+       id : id
+     });
+  }
+
   return (
     <div className="checkout-product">
         <div>
@@ -16,7 +27,7 @@ function CheckoutProduct({ id, title, price, rating, image }) {
             <span className="rating">
               {Array(rating).fill().map(() => <p>*</p>)}
             </span>
-            <button>Remove from Basket</button>
+            <button onClick={removeFromBasket}>Remove from Basket</button>
         </div>
     </div>
   )
