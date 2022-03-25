@@ -23,10 +23,12 @@ function Header() {
         </div>
         
         <div className="header-nav">
-            <div className="header-nav-item">
-                <span className="item-line-one">Hello Guest</span>
-                <span className="item-line-two">SignIn</span>
-            </div>
+            <Link to="/login" style={{textDecoration :'none'}} >
+                <div className="header-nav-item">
+                    <span className="item-line-one">Hello Guest</span>
+                    <span className="item-line-two">SignIn</span>
+                </div>
+            </Link>
             <Link to="/checkout" style={{textDecoration :'none'}} >
                 <div className="header-nav-item">
                     <span className="item-line-one">Your</span>

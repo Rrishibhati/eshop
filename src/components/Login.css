@@ -1,0 +1,81 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+    width: 100%;
+    margin-top: 65px;
+}
+
+.login-header {
+    display: flex;
+    align-items: center;
+    color: #ff9f00;
+    margin: 0 25px;
+}
+
+.login-logo-icon {
+    font-size: 40px;
+}
+
+.login-logo-title {
+    font-size: 22px;
+    color: #131921;
+}
+
+.login-body {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 15px 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+    margin-top: 10px;
+    width: 300px;
+}
+
+h1.login-heading {
+    font-weight: 450;
+    padding: 0;
+    margin-bottom: 13px;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.form-field label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #131921;
+}
+
+.form-field input {
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-top: 2px;
+    height: 25px;
+}
+
+button.login-btn {
+    background: #ff9f00;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #000000bd;
+    font-size: 15px;
+    padding: 2px 0px;
+}
+
+.login-footer {
+    margin-top: 50px;
+    width: 300px;
+}
+
+button.register-btn {
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 14px;
+    border-color: lightgray;
+}
+
