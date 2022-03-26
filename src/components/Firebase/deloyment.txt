@@ -1,0 +1,26 @@
+Deploy eShop Project online using firebase
+-----------------------------------------------
+Step 1 : run firebase login command on cmd to login and allow permission to project
+            firebase login
+
+Step 2 : run firebase init to initialize firebase project
+            firebase init
+
+            questionaire - which feature of firebase you want to setup
+            we need to select hosting features
+
+            select your project from your firebase project list
+
+Step 3 : run npm run build to create react project build
+
+                npm run build
+
+Step 4 : run firebase deploy to deploy project on firebase 
+
+            firebase deploy
+
+
+            it will provide the project console link where your project build will be running
+
+
+        
